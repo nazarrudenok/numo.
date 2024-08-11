@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нумо!</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo" onclick="window.location.href='/'">Нумо!</h1>
+    </header>
+    <main class="main_login">
+        <div class="autahorization_title_cont">
+            <p class="autahorization_title_text">Реєстрація</p>
+        </div>
+        <div class="form_cont">
+            <form action="/reg" method="post" class="form">
+                <input type="text" name="login" placeholder="Ім'я користувача" class="user-data" autocomplete="off">
+                <input type="password" name="password" placeholder="Пароль" class="user-data">
+                <input type="password" name="password2" placeholder="Повторіть пароль" class="user-data">
+                <div class="form_btn_cont">
+                    <p class="login-add"><span class="here" onclick="window.location.href='/register'">Ще не зареєстровані?</span></p>
+                    <input type="submit" value="Увійти" class="login-btn">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

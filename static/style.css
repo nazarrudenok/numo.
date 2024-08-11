@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'nunito', sans-serif;
+    background: #FFF1D1;
+    color: #292929;
+}
+
+.main {
+    padding: 0 5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.icon {
+    font-size: 40px;
+}
+
+.haslo_cont {
+    color: #898121;
+    font-size: 52px;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.title_bottom_cont {
+    font-size: 32px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.main_arrow_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_text_cont {
+    font-size: 30px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.info_text_color {
+    color: #E7B10A;
+}
+
+.main_arrow {
+    width: 170px;
+}
+
+.what_we_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;              
+}
+
+.what_we {
+    font-size: 32px;
+    color: #898121;
+    font-weight: 600;
+}
+
+.what_we_img {
+    width: 50px;
+    rotate: 90deg;
+}
+
+.mission_cont {
+    background-color: #FFEABB;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+
+.mission_title_text {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.mission_title_second_text {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.mission_title_second_text_color {
+    color: #E7B10A;
+}
+
+.objectives_cont {
+    margin-left: 20px;
+}
+
+.objectives_first_number, .objectives_second_number, .objectives_third_number, .objectives_fourth_number {
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+
+.objectives_first_text, .objectives_second_text, .objectives_third_text, .objectives_fourth_text {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.objectives_first_cont, .objectives_second_cont, .objectives_third_cont, .objectives_fourth_cont {
+    display: flex;
+    align-items: center;
+}
+
+.objectives_title_cont {
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+.objectives_title_text {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.objectives_first_number, .objectives_third_number {
+    color: #FFF1D1;
+    background-color: #898121;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+
+.objectives_second_number, .objectives_fourth_number {
+    color: #FFF1D1;
+    background-color: #E7B10A;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+}
+
+.objectives_first_cont {
+    margin-bottom: 58px;
+}
+
+.objectives_second_cont {
+    margin-bottom: 40px;
+}
+
+.objectives_third_cont {
+    margin-bottom: 34px;
+}
+
+.objectives_fourth_cont {
+    margin-bottom: 60px;
+}
+
+.gorizontal_line {
+    border: none;
+    border-top: 3px solid #898121;
+    margin: 0 50px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.meta_cont {
+    background-color: #FFEABB;
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.meta_main_text {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.meta_second_text {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.meta_color_first {
+    color: #898121;
+}
+
+.meta_color_second {
+    color: #E7B10A;
+}
+
+.haslo_cont_bottom {
+    display: flex;
+    color: #292929;
+    font-size: 28px;
+    font-weight: 600; 
+    margin-bottom: 50px;
+}
+
+.numo_color {
+    color: #898121;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.team_color {
+    color: #E7B10A;
+}
+
+.svg_haslo_cont {
+    width: 75px;
+    margin-right: 10px;
+}
+
+.main_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    padding: 0 20px;
+}
+
+.autahorization_title_text {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_btn_cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-data {
+    background: transparent;
+    outline: none;
+    border: 2px solid #898121;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 130px;
+    font-size: 18px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+input::placeholder {
+    opacity: 0.5;
+}
+
+.login-add {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 44px;
+    margin-left: 10px;
+}
+
+.login-btn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF1D1;
+    background: #898121;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+
+.form_btn_cont {
+    display: flex;
+    align-items: center;
+}
